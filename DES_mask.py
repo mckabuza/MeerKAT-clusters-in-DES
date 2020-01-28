@@ -2,7 +2,7 @@
 """
 Created on Tue Jan 14 15:04:57 2020
 
-@author: Kabelo
+@author: Kabelo McKabuza
 """
 
 from astropy.io import fits
@@ -10,13 +10,13 @@ from astropy.wcs import wcs
 import astropy.table as atpy
 import numpy as np
 import pylab as plt
-import time
+#import time
 from matplotlib import rcParams
 
 rcParams['font.family'] = 'Courier New'
 rcParams['font.size'] = '16'
 
-starttime = time.time()
+#starttime = time.time()
 
 
 image_file = 'AdvACT_y3a2_footprint_griz_1exp_v2.0.fits'
@@ -63,9 +63,9 @@ plt.axis([0,45000, -4000,9000])
 #plt.grid()
 
 
-endtime = time.time()
+#endtime = time.time()
 
-timedif = endtime - starttime
+#timedif = endtime - starttime
 
-print(str("{0:.2f}".format(timedif)) + " seconds")
+#print(str("{0:.2f}".format(timedif)) + " seconds")
 #'''
